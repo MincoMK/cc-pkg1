@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      computercraft-ts:
+        specifier: ^1.0.0
+        version: 1.0.0
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
+packages:
+
+  computercraft-ts@1.0.0:
+    resolution: {integrity: sha512-sAgUgySFSAmzlAUqG/6loHZeqX5Bi2qeSRBo7k5kL7os59cLhj8sYI87UCYCYbfs4j/85Q6d0JqTF4VyrAMfLA==}
+
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  computercraft-ts@1.0.0: {}
+
+  typescript@5.8.3: {}
